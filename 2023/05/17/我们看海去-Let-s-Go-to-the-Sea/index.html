@@ -1017,149 +1017,138 @@
     
 
     
-
-    
-
-    
-
-    
         <style>
-    .twikoo-card {
+    .valine-card {
         margin: 1.5rem auto;
     }
 
-    .twikoo-card .card-content {
-        padding: 20px;
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
     }
 
-    #tcomments textarea {
+    #vcomments textarea {
         box-sizing: border-box;
-        background: url("/") 100% 100% no-repeat;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
     }
 
-    #tcomments p {
+    #vcomments p {
         margin: 2px 2px 10px;
         font-size: 1.05rem;
         line-height: 1.78rem;
     }
 
-    #tcomments blockquote p {
+    #vcomments blockquote p {
         text-indent: 0.2rem;
     }
 
-    #tcomments a {
+    #vcomments a {
         padding: 0 2px;
         color: #4cbf30;
         font-weight: 500;
         text-decoration: none;
     }
 
-    #tcomments img {
+    #vcomments img {
         max-width: 100%;
         height: auto;
         cursor: pointer;
     }
 
-    #tcomments ol li {
+    #vcomments ol li {
         list-style-type: decimal;
     }
 
-    #tcomments ol,
+    #vcomments ol,
     ul {
         display: block;
         padding-left: 2em;
         word-spacing: 0.05rem;
     }
 
-    #tcomments ul li,
+    #vcomments ul li,
     ol li {
         display: list-item;
         line-height: 1.8rem;
         font-size: 1rem;
     }
 
-    #tcomments ul li {
+    #vcomments ul li {
         list-style-type: disc;
     }
 
-    #tcomments ul ul li {
+    #vcomments ul ul li {
         list-style-type: circle;
     }
 
-    #tcomments table,
-    th,
-    td {
+    #vcomments table, th, td {
         padding: 12px 13px;
         border: 1px solid #dfe2e5;
     }
 
-    #tcomments table,
-    th,
-    td {
+    #vcomments table, th, td {
         border: 0;
     }
 
-    table tr:nth-child(2n),
-    thead {
+    table tr:nth-child(2n), thead {
         background-color: #fafafa;
     }
 
-    #tcomments table th {
+    #vcomments table th {
         background-color: #f2f2f2;
         min-width: 80px;
     }
 
-    #tcomments table td {
+    #vcomments table td {
         min-width: 80px;
     }
 
-    #tcomments h1 {
+    #vcomments h1 {
         font-size: 1.85rem;
         font-weight: bold;
         line-height: 2.2rem;
     }
 
-    #tcomments h2 {
+    #vcomments h2 {
         font-size: 1.65rem;
         font-weight: bold;
         line-height: 1.9rem;
     }
 
-    #tcomments h3 {
+    #vcomments h3 {
         font-size: 1.45rem;
         font-weight: bold;
         line-height: 1.7rem;
     }
 
-    #tcomments h4 {
+    #vcomments h4 {
         font-size: 1.25rem;
         font-weight: bold;
         line-height: 1.5rem;
     }
 
-    #tcomments h5 {
+    #vcomments h5 {
         font-size: 1.1rem;
         font-weight: bold;
         line-height: 1.4rem;
     }
 
-    #tcomments h6 {
+    #vcomments h6 {
         font-size: 1rem;
         line-height: 1.3rem;
     }
 
-    #tcomments p {
+    #vcomments p {
         font-size: 1rem;
         line-height: 1.5rem;
     }
 
-    #tcomments hr {
+    #vcomments hr {
         margin: 12px 0;
         border: 0;
         border-top: 1px solid #ccc;
     }
 
-    #tcomments blockquote {
+    #vcomments blockquote {
         margin: 15px 0;
         border-left: 5px solid #42b983;
         padding: 1rem 0.8rem 0.3rem 0.8rem;
@@ -1167,7 +1156,7 @@
         background-color: rgba(66, 185, 131, .1);
     }
 
-    #tcomments pre {
+    #vcomments pre {
         font-family: monospace, monospace;
         padding: 1.2em;
         margin: .5em 0;
@@ -1177,7 +1166,7 @@
         tab-size: 4;
     }
 
-    #tcomments code {
+    #vcomments code {
         font-family: monospace, monospace;
         padding: 1px 3px;
         font-size: 0.92rem;
@@ -1186,25 +1175,24 @@
         border-radius: 2px;
     }
 
-    #tcomments pre code {
+    #vcomments pre code {
         font-family: monospace, monospace;
         padding: 0;
         color: #e8eaf6;
         background-color: #272822;
     }
 
-    #tcomments pre[class*="language-"] {
+    #vcomments pre[class*="language-"] {
         padding: 1.2em;
         margin: .5em 0;
     }
 
-    #tcomments code[class*="language-"],
+    #vcomments code[class*="language-"],
     pre[class*="language-"] {
         color: #e8eaf6;
     }
 
-    #tcomments [type="checkbox"]:not(:checked),
-    [type="checkbox"]:checked {
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
         position: inherit;
         margin-left: -1.3rem;
         margin-right: 0.4rem;
@@ -1214,51 +1202,47 @@
         visibility: visible;
     }
 
-    #tcomments b,
+    #vcomments b,
     strong {
         font-weight: bold;
     }
 
-    #tcomments dfn {
+    #vcomments dfn {
         font-style: italic;
     }
 
-    #tcomments small {
+    #vcomments small {
         font-size: 85%;
     }
 
-    #tcomments cite {
+    #vcomments cite {
         font-style: normal;
     }
 
-    #tcomments mark {
+    #vcomments mark {
         background-color: #fcf8e3;
         padding: .2em;
     }
 
-    #tcomments table,
-    th,
-    td {
+    #vcomments table, th, td {
         padding: 12px 13px;
         border: 1px solid #dfe2e5;
     }
 
-    table tr:nth-child(2n),
-    thead {
+    table tr:nth-child(2n), thead {
         background-color: #fafafa;
     }
 
-    #tcomments table th {
+    #vcomments table th {
         background-color: #f2f2f2;
         min-width: 80px;
     }
 
-    #tcomments table td {
+    #vcomments table td {
         min-width: 80px;
     }
 
-    #tcomments [type="checkbox"]:not(:checked),
-    [type="checkbox"]:checked {
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
         position: inherit;
         margin-left: -1.3rem;
         margin-right: 0.4rem;
@@ -1269,32 +1253,41 @@
     }
 </style>
 
-<div class="card twikoo-card" data-aos="fade-up">
+<div class="card valine-card" data-aos="fade-up">
     <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
         <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
         <span>评论</span>
     </div>
-    <div class="card-content" style="display: grid">
-        <div id="tcomments"></div>
+    <div id="vcomments" class="card-content" style="display: grid">
     </div>
 </div>
 
-<script src="/libs/twikoo/twikoo.all.min.js"></script>
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
 <script>
-    twikoo.init({
-        envId: 'https://twikoo1-smoky.vercel.app/',
-        el: '#tcomments',
-        region: '',
-        path: ''
-    }).then(function () {
-        var tkInputs = document.querySelector('#twikoo').getElementsByTagName('input');
-        for (var tkInputsIndex = 0; tkInputsIndex < tkInputs.length; tkInputsIndex++) {
-            if (tkInputs[tkInputsIndex]) {
-                tkInputs[tkInputsIndex].classList.add('browser-default');
-            }
-        }
+    new Valine({
+        el: '#vcomments',
+        appId: 'ikRr3REa728qXvCxK57LMYtY-gzGzoHsz',
+        appKey: 'KA4wGKo2ZdY9aCa2iHkiuJXm',
+        serverURLs: 'https://ikrr3rea.lc-cn-n1-shared.com',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '千山万水总是情，留个评论行不行awa'
     });
 </script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
 
     
 
@@ -1588,7 +1581,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">24.1k</span>
+                        class="white-color">24.3k</span>
             
             
             
